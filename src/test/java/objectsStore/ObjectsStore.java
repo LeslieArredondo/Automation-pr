@@ -59,6 +59,10 @@ public class ObjectsStore {
 	@FindBy(xpath= "//button[@class='button btn btn-default button-medium' and @type='submit']")
 	public WebElement confirmOrder;
 	
+	@FindBy(xpath= "//strong[contains(text(),'Your order on My Store is complete.')]")
+	public WebElement orderConfirmation;
+	
+	
 	
 	
 	
